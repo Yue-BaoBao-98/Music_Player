@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="" />
+        <title>Music player</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+            integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <title>Fetch</title>
+    </head>
+    <body>
+        <div class="player">
+            <!-- Dashboard -->
+            <div class="dashboard">
+                <!-- Header -->
+                <header>
+                    <h4>Now playing:</h4>
+                    <h2>Listen Not</h2>
+                    <h3>Game Science</h3>
+                </header>
+
+                <!-- CD -->
+                <div class="cd">
+                    <div class="cd-thumb" style="background-image: url('./assets/img/Listen_Not.jpg')"></div>
+                </div>
+
+                <!-- Control -->
+                <div class="control">
+                    <div class="btn btn_repeat">
+                        <i class="fa-solid fa-repeat"></i>
+                    </div>
+                    <div class="btn btn_prev">
+                        <i class="fas fa-step-backward"></i>
+                    </div>
+                    <div class="btn btn_toggle_play">
+                        <i class="fas fa-pause icon-pause"></i>
+                        <i class="fas fa-play icon-play"></i>
+                    </div>
+                    <div class="btn btn_next">
+                        <i class="fas fa-step-forward"></i>
+                    </div>
+                    <div class="btn btn_random">
+                        <i class="fas fa-random"></i>
+                    </div>
+                </div>
+
+                <!-- 1st way to set progress bar by input tag -->
+                <!-- <input
+          id="progress"
+          class="progress"
+          type="range"
+          value="0"
+          step="1"
+          min="0"
+          max="100"
+        /> -->
+
+                <!-- 2nd way to set progress song bar by div -->
+                <div id="progress_bar" class="progress_bar">
+                    <span id="progress" class="progress"></span>
+                </div>
+
+                <audio id="audio" src=""></audio>
+            </div>
+
+            <!-- Playlist -->
+            <div class="playlist"></div>
+        </div>
+        <script src="./assets/scripts/main.js"></script>
+    </body>
+</html>
