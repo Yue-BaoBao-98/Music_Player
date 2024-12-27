@@ -24,3 +24,11 @@ This project was a **personal learning project** focuses at:
 ## 🔗 Live Demo
 
 Experience the music player live: [Music Player](https://yue-baobao-98.github.io/Music_Player/)
+
+## 📫 Contact
+
+Feel free to reach me at:
+
+-   Email: [Mail](nguyenhuagiabao.98@gmail.com)
+
+-   LinkedIn: [Profile](https://www.linkedin.com/in/bao-nguyen-nhgb98)
